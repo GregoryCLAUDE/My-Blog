@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
-  public function ()
+  public function post()
   {
 
     return $this->belongsTo(Post::class);

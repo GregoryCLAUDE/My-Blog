@@ -10,13 +10,14 @@
       </div>
         <p>{{$post->body}}</p>
 
+        <hr>
         <div class="comment">
 
           @foreach ($post->comments as $comment)
 
             <article>
 
-              {{comment->body}}
+              {{ $comment->body }}
 
             </article>
 
